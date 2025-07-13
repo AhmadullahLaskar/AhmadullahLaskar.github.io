@@ -1,4 +1,4 @@
-# Data Scientist
+# Data Science & AI Aspirant
 
 #### Technical Skills: Python, SQL, ML
 
