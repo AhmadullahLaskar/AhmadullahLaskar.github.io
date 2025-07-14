@@ -1,7 +1,7 @@
-# Data Science & AI Aspirant
+# Ahmadullah Laskar portfolio
 
-#### Technical Skills: Python, SQL, ML
+#### Live website : https://ahmadullahlaskar.github.io/
 
-## Education		        		
-- BTech., AI&DS | Koneru Lakshmaiah (_May 2023_)
+## @contact me :		        		
+- ahmadullahlaskar2004@gmail.com
 
