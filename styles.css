@@ -70,10 +70,11 @@ a {
 /* Sidebar */
 .sidebar {
   background-color: #2c2c2c;
-  width: 280px;
+  width: 320px; /* was 280px */
   padding: 20px;
   text-align: center;
 }
+
 
 .sidebar h1 {
   font-size: 1.5rem;
@@ -103,6 +104,7 @@ a {
   flex-direction: column;
   gap: 6px;
 }
+
 
 /* Main Content */
 .content {
