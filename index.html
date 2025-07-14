@@ -3,60 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Ahmadullah Laskar - Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Hi, I am Ahmadullah Laskar</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#extracurricular">Extracurricular</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Ahmadullah Laskar" class="profile-pic" />
+      <h1>Ahmadullah Laskar</h1>
+      <p>B.Tech in AI & DS, KL University (2023–2027)</p>
+      <p>Web Developer • AI Enthusiast • Open Source Contributor</p>
 
-  <main>
-    <!-- About Me -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a passionate developer with a strong interest in web technologies,
-        AI, and open-source projects. I love building things that solve real-world problems.
+      <p class="location">📍 India</p>
+
+      <p><strong>Contact:</strong><br>
+        ahmadullah@email.com<br>
+        +91-XXXXXXXXXX
       </p>
-    </section>
 
-    <!-- Education -->
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-       
-        <li><strong>BTech in AI&DS</strong> – KL University (2023 - 2027)</li>
-      </ul>
-    </section>
+      <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">GitLab</a>
+      </div>
+    </aside>
 
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul class="skills-grid">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Python</li>
-        <li>Git</li>
-      </ul>
-    </section>
+    <!-- Main Content -->
+    <main class="content">
+      <!-- About -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate developer with a strong interest in web technologies,
+          AI, and open-source projects. I love building things that solve real-world problems.
+          I’m currently pursuing B.Tech in Artificial Intelligence & Data Science from KL University.
+        </p>
+      </section>
 
-    <!-- Projects -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project-list">
+      <!-- Education -->
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>B.Tech in AI & DS</strong> – KL University (2023–2027)</li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-grid">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Python</li>
+          <li>Git</li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h2>Projects</h2>
         <div class="project-item">
           <h3>Portfolio Website</h3>
           <p>A sleek personal site to showcase my work. <a href="#">View Project</a></p>
@@ -65,23 +74,18 @@
           <h3>Task Manager App</h3>
           <p>Built with React and Firebase for real-time updates. <a href="#">GitHub</a></p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Extracurricular Activities -->
-    <section id="extracurricular">
-      <h2>Extracurricular Activities</h2>
-      <ul>
-        <li>Volunteer - Open Source Contributor, Mozilla</li>
-        <li>Mentor - CodeClub Bangladesh</li>
-        <li>Speaker - AI in Education (TechConf 2023)</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
-  </footer>
+      <!-- Extracurricular -->
+      <section id="extracurricular">
+        <h2>Extracurricular Activities</h2>
+        <ul>
+          <li>Volunteer – Open Source Contributor, Mozilla</li>
+          <li>Mentor – CodeClub India</li>
+          <li>Speaker – AI in Education (TechConf 2023)</li>
+        </ul>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
-
